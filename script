@@ -1,0 +1,17 @@
+C:\Program Files\Amazon\AWSCLIV2>aws rds list-tags-for-resource --resource-name arn:aws:rds:us-east-1:581737776948:db:driver-rides-staging
+{
+    "TagList": [
+        {
+            "Key": "createdAfter2020",
+            "Value": "false"
+        },
+        {
+            "Key": "workload-type",
+            "Value": "other"
+        },
+        {
+            "Key": "creationTime",
+            "Value": "2015-11-27"
+        }
+    ]
+}
