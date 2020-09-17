@@ -1,2 +1,2 @@
 
-C:\Program Files\Amazon\AWSCLIV2>aws rds add-tags-to-resource --resource-name arn:aws:rds:us-east-1:581737776948:db:driver-rides-staging --tags "[{\"Key\": \"BILLING\",\"Value\": \"DESCONHECIDO\"}]"
+C:\Program Files\Amazon\AWSCLIV2>aws rds add-tags-to-resource --resource-name arn:aws:rds:us-east-1:xxxxxxxxxxxx:db:dbname --tags "[{\"Key\": \"ONE\",\"Value\": \"TWO\"}]"
