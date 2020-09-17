@@ -1,0 +1,1 @@
+XXXXXXM000000:~ someone_i$ aws elasticbeanstalk update-tags-for-resource --resource-arn arn:aws:elasticbeanstalk:us-east-1:xxxxxxxxxxxx:application/applicationname --tags-to-add "[{\"Key\": \"BILLING\",\"Value\": \"DESCONHECIDO\"}]"
