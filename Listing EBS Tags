@@ -1,14 +1,14 @@
-C:\Program Files\Amazon\AWSCLIV2>aws elasticbeanstalk list-tags-for-resource --resource-arn arn:aws:elasticbeanstalk:us-east-1:581737776948:application/uau-metrics
+C:\Program Files\Amazon\AWSCLIV2>aws elasticbeanstalk list-tags-for-resource --resource-arn arn:aws:elasticbeanstalk:us-east-1:xxxxxxxxxxxx:application/applicationname
 {
-    "ResourceArn": "arn:aws:elasticbeanstalk:us-east-1:581737776948:application/uau-metrics",
+    "ResourceArn": "arn:aws:elasticbeanstalk:us-east-1:xxxxxxxxxxx:application/applicationname",
     "ResourceTags": [
         {
-            "Key": "createdAfter2020",
-            "Value": "false"
+            "Key": "ONE",
+            "Value": "TWO"
         },
         {
-            "Key": "creationTime",
-            "Value": "2017-06-19"
+            "Key": "THREE",
+            "Value": "FOUR"
         }
     ]
 }
