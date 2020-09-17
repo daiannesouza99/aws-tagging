@@ -1,4 +1,4 @@
-C:\Program Files\Amazon\AWSCLIV2>aws rds list-tags-for-resource --resource-name arn:aws:rds:us-east-1:581737776948:db:dbname
+C:\Program Files\Amazon\AWSCLIV2>aws rds list-tags-for-resource --resource-name arn:aws:rds:us-east-1:xxxxxxxxxxx:db:dbname
 {
     "TagList": [
         {
