@@ -1,0 +1,12 @@
+import boto3
+
+client = boto3.client('rds')
+resource = 'rds'
+application = 'db'
+dbname = 'xxxxxxxxxx'
+
+response = client.list_tags_for_resource(
+    ResourceName=(f'arn:aws:{resource}:us-east-1:000000000000:{application}:{dbname}'),
+)   
+
+print(response)
