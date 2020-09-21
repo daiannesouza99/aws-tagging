@@ -1,0 +1,31 @@
+import boto3
+
+client = boto3.client('resourcegroupstaggingapi')
+
+#seleciona de acordo com a TAG de sua escolha
+response = client.get_resources(
+    PaginationToken='',
+    TagFilters=[
+        {
+            'Key': 'TAG de sua escolha',
+            'Values': [
+                'Valor escolhido',
+            ]
+        },
+    ],
+    TagsPerPage=100,
+    ResourceTypeFilters=[
+        'RECURSO PARA PROCURAR A TAG',
+    ]
+)
+
+print(response) 
+
+#contagem do número de vezes que a TAG apareceu 
+count = 0
+for key, value in response.items(): 
+    if isinstance(value, list): 
+        count += len(value) 
+    
+print(f'O número de itens nessa lista é de {count} elementos.')
+
