@@ -1,0 +1,12 @@
+import boto3
+
+client = boto3.client('elasticbeanstalk')
+resource = 'elasticbeanstalk'
+application = 'application'
+appname = 'xxxxxxxx'
+
+response = client.list_tags_for_resource(
+    ResourceArn=(f'arn:aws:{resource}:us-east-1:0000000000000:{application}/{appname}'),
+)   
+
+print(response)
